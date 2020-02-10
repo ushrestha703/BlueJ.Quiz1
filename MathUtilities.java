@@ -9,7 +9,8 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+      Integer intsum = baseValue + valueToAdd;
+      return intsum;
   }
 
   /**
@@ -19,7 +20,8 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Double add(Double baseValue, Double valueToAdd){
-      return null;
+      Double doubsum = baseValue + valueToAdd;
+      return doubsum;
   }
 
   /**
@@ -28,7 +30,9 @@ public class MathUtilities{
    * @return the half of the number in double
    */
   public Double half(Integer number) {
-      return null;
+      Double dnumber = Double.valueOf(number);
+      Double doubhalf = number / 2.0;
+      return doubhalf;
   }
 
   /**
@@ -37,7 +41,15 @@ public class MathUtilities{
    * @return true if the number is odd, false if it is even
    */
   public Boolean isOdd(Integer number){
-      return null;
+      if (number % 2 != 0) 
+      {
+          return true;
+        }
+        else
+        {
+            return false;
+        }
+      
   }
 
 
@@ -47,7 +59,8 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+      Integer squa = number * number ;
+      return squa;
   }
 
 }
